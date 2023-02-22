@@ -15,6 +15,7 @@ Class {
 	#category : #Kernel
 }
 
+{ #category : #'instance creation' }
 Class class >> newSubclassOf: aClass [
 	| meta |
 	meta := Metaclass new beSubclassOf: aClass class.

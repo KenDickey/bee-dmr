@@ -90,6 +90,7 @@ WideSymbol >> atValid: index [
 	^Character value: cp
 ]
 
+{ #category : #accessing }
 WideSymbol >> basicSize [
 	^self _size
 ]

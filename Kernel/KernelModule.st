@@ -65,6 +65,7 @@ KernelModule >> addModuleLoader: aModuleLoader [
 	moduleLoaders add: aModuleLoader
 ]
 
+{ #category : #entry }
 KernelModule >> entry: argc argv: argv [
 	<callback: long (long, pointer)>
 	"^Smalltalk startSession"
@@ -112,6 +113,7 @@ KernelModule >> prepareForExecution: aCompiledMethod [
 	self errorVMSpecific
 ]
 
+{ #category : #testing }
 KernelModule >> foo [
 	| result |
 	"self _halt."
